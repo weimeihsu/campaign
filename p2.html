@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143319817-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-143319817-1');
+  </script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Here Hear 說故事，拿獎品</title>
+  <link rel="shortcut icon" href="./img/favicon.ico">
+
+  <meta name="author" content="Here Hear 說故事，拿獎品">
+  <meta name="description" content="說故事是一種藝術，能舒緩情緒、建立邏輯思考、訓練口才、培養領導能力，好的故事能引起共鳴，感動人心，你喜歡說故事嗎？你喜歡與別人分享生活中大小事嗎？你找不到人傾訴嗎？講5則故事就可以免費獲得高品質的藍芽5.0音箱">
+  <meta name="keywords" content="說故事,藍芽喇叭,贈獎活動,憂鬱,聊天">
+  <meta property="og:title" content="Here Hear 說故事，拿獎品">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://campaign.bamboodd.com/img/1.jpg">
+  <meta property="og:description" content="說故事是一種藝術，能舒緩情緒、建立邏輯思考、訓練口才、培養領導能力，好的故事能引起共鳴，感動人心，你喜歡說故事嗎？你喜歡與別人分享生活中大小事嗎？你找不到人傾訴嗎？講5則故事就可以免費獲得高品質的藍芽5.0音箱">
+  <meta property=”og:url” content="https://campaign.bamboodd.com/" />
+
+  <!-- Theme CSS -->
+  <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.7.0/css/all.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+TC">
+  <link href="css/freelancer.css" rel="stylesheet">
+  <link href="css/campaign.css" rel="stylesheet">
+  <!-- <link href="css/campaign.css" rel="stylesheet"> -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/loaders.css/0.1.2/loaders.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.css" integrity="sha256-JHRpjLIhLC03YGajXw6DoTtjpo64HQbY5Zu6+iiwRIc=" crossorigin="anonymous" />
+  <!-- <script src="./js/FileSaver.min.js"></script> -->
+  <script src="https://d2pms2fk4ad2h.cloudfront.net/js/recorder-core.js"></script>
+  <script src="https://d2pms2fk4ad2h.cloudfront.net/js/mp3.js"></script>
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="index.html">Here Hear</a>
+      <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        選單
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html#portfolio">活動說明</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html#about">活動規則</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html#mannual">操作說明</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html#wav">如何說一則好故事</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="p2.html">開始說故事</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+ 
+  <!-- Contact Section -->
+  <section class="page-section mt-5" id="contact">
+    <div class="container">
+
+      <!-- Upload Story Section #1 -->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-5">心情故事(一)</h2>
+
+      <div class="text-center">
+        <audio class="recPlay-0 recPly" controlsList="nodownload">
+          <source id="audioSource-0" src=""></source>
+        </audio>
+        <p id="audio-validate-0" style="display: none;" class="text-danger">請錄製音檔</p>
+      </div><!-- Upload Button -->
+      <div class="text-center">
+        <!-- <input class="btn btn-primary btn-md record-ctrl" type="file" data-index="0"> -->
+        <label class="btn btn-primary btn-xl record-ctrl upload-btn">
+          <input class="upload-audio" style="display:none;" type="file" accept="audio/*" data-index="0">
+          <i class="fas fa-paperclip mr-3"></i> 上傳檔案
+        </label>
+        <button class="btn btn-primary btn-xl record-ctrl selectRecorderBtn" data-index="0"><i class="fas fa-history mr-3"></i>選擇故事</button>
+        <button class="btn btn-primary btn-xl record-ctrl" id="record-start-0" onclick="recstart('0')"><i class="fas fa-microphone mr-3"></i>開始錄音</button>
+        <button class="btn btn-primary btn-xl record-ctrl" id="record-stop-0" style="display: none;" onclick="stopButtonOnClick('0')"><i class="fas fa-stop mr-3"></i>停止錄音<span id="record-time-0"></span></button>
+      </div>
+
+      <!-- Story label Section Form -->
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <form id="storyLabelOne" class="mt-4">
+            <div class="control-group">
+              <div class="form-group controls row">
+                <label for="storyTitleOne" class="col-sm-2 col-form-label">標題</label>
+                <input class="form-control storyTitle" id="storyTitleOne" maxlength="8" required="required" placeholder="限八個字以內" data-index="0">
+                <ul id="tag-validate-0" style="display: none;" role="alert">
+                  <li class="text-danger">請輸入標題</li>
+                </ul>
+              </div>
+              <div class="form-group row">
+                <label class="col-sm-2 col-form-label">故事類型</label>
+                <div class="col-sm-10 col-form-label">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="storyType" id="storyOne0-1" checked value="0" data-index="0">
+                    <label class="form-check-label" for="storyOne0-1">愛情</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="storyType" id="storyOne0-3" value="1" data-index="0">
+                    <label class="form-check-label" for="storyOne0-3">生活</label>
+                  </div>  
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="storyType" id="storyOne0-2" value="2" data-index="0">
+                    <label class="form-check-label" for="storyOne0-2">旅遊</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="storyType" id="storyOne0-4" value="3" data-index="0">
+                    <label class="form-check-label" for="storyOne0-4">創作</label>
+                  </div> 
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="storyType" id="storyOne0-5" value="4" data-index="0">
+                    <label class="form-check-label" for="storyOne0-5">私密</label>
+                  </div> 
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="storyType" id="storyOne0-6" value="5" data-index="0">
+                    <label class="form-check-label" for="storyOne0-6">其他</label>
+                  </div> 
+                </div>
+                
+              </div>
+              <div class="form-group row">
+                <label class="col-sm-2 col-form-label">情緒狀態</label>
+                <div class="col-sm-10 col-form-label">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion0-1" checked value="0" data-index="0">
+                    <label class="form-check-label" for="storyOne-motion0-1">喜歡</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion0-2" value="1" data-index="0">
+                    <label class="form-check-label" for="storyOne-motion0-2">厭惡</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion0-3" value="2" data-index="0">
+                    <label class="form-check-label" for="storyOne-motion0-3">憤怒</label>
+                  </div>  
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion0-4" value="3" data-index="0">
+                    <label class="form-check-label" for="storyOne-motion0-4">恐懼</label>
+                  </div> 
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion0-5" value="4" data-index="0">
+                    <label class="form-check-label" for="storyOne-motion0-5">哀傷</label>
+                  </div> 
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion0-6" value="5" data-index="0">
+                    <label class="form-check-label" for="storyOne-motion0-6">勇敢</label>
+                  </div> 
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion0-7" value="6" data-index="0">
+                    <label class="form-check-label" for="storyOne-motion0-7">快樂</label>
+                  </div>  
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion0-8" value="7" data-index="0">
+                    <label class="form-check-label" for="storyOne-motion0-8">平靜</label>
+                  </div> 
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion0-9" value="8" data-index="0">
+                    <label class="form-check-label" for="storyOne-motion0-9">複雜</label>
+                  </div> 
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion0-10" value="9" data-index="0">
+                    <label class="form-check-label" for="storyOne-motion0-10">多元</label>
+                  </div> 
+                </div>
+                
+              </div>          
+            </div>
+          </form>
+        </div>
+      </div>
+      
+      <!-- Icon Divider -->
+      <div class="divider-dash col-lg-8 mx-auto"></div>
+
+      <!-- Upload Story Section #2 -->
+      <h2 class="page-section-heading pt-4 text-center text-uppercase text-secondary mb-5">心情故事(二)</h2>
+
+      <div class="text-center">
+        <audio class="recPlay-1 recPly" controlsList="nodownload"></audio>
+        <p id="audio-validate-1" style="display: none;" class="text-danger">請錄製音檔</p>
+      </div><!-- Upload Button -->
+      <div class="text-center">
+        <label class="btn btn-primary btn-xl record-ctrl upload-btn">
+          <input class="upload-audio" style="display:none;" type="file" accept="audio/*" data-index="1">
+          <i class="fas fa-paperclip mr-3"></i> 上傳檔案
+        </label>
+        <button class="btn btn-primary btn-xl record-ctrl selectRecorderBtn" data-index="1"><i class="fas fa-history mr-3"></i>選擇故事</button>
+        <button class="btn btn-primary btn-xl record-ctrl" id="record-start-1" onclick="recstart('1')"><i class="fas fa-microphone mr-3"></i>開始錄音</button>
+        <button class="btn btn-primary btn-xl record-ctrl" id="record-stop-1" style="display: none;" onclick="stopButtonOnClick('1')"><i class="fas fa-stop mr-3"></i>停止錄音<span id="record-time-1"></span></button>
+      </div>
+
+      <!-- Story label Section Form -->
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <form id="storyLabelOne" class="mt-4">
+            <div class="control-group">
+                <div class="form-group row">
+                  <label for="storyTitleOne" class="col-sm-2 col-form-label">標題</label>
+                  <input class="form-control storyTitle" id="storyTitleOne" maxlength="8" placeholder="限八個字以內" data-index="1">
+                  <ul id="tag-validate-1" style="display: none;" role="alert">
+                    <li class="text-danger">請輸入標題</li>
+                  </ul>
+                </div>
+              <div class="form-group row">
+                <label class="col-sm-2 col-form-label">故事類型</label>
+                <div class="col-sm-10 col-form-label">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="storyType" id="storyOne1-1" checked value="0" data-index="1">
+                    <label class="form-check-label" for="storyOne1-1">愛情</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="storyType" id="storyOne1-3" value="1" data-index="1">
+                    <label class="form-check-label" for="storyOne1-3">生活</label>
+                  </div>  
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="storyType" id="storyOne1-2" value="2" data-index="1">
+                    <label class="form-check-label" for="storyOne1-2">旅遊</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="storyType" id="storyOne1-4" value="3" data-index="1">
+                    <label class="form-check-label" for="storyOne1-4">創作</label>
+                  </div> 
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="storyType" id="storyOne1-5" value="4" data-index="1">
+                    <label class="form-check-label" for="storyOne1-5">私密</label>
+                  </div> 
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="storyType" id="storyOne1-6" value="5" data-index="1">
+                    <label class="form-check-label" for="storyOne1-6">其他</label>
+                  </div> 
+                </div>
+                
+              </div>
+              <div class="form-group row">
+                <label class="col-sm-2 col-form-label">情緒狀態</label>
+                <div class="col-sm-10 col-form-label">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion1-1" checked value="0" data-index="1">
+                    <label class="form-check-label" for="storyOne-motion1-1">喜歡</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion1-2" value="1" data-index="1">
+                    <label class="form-check-label" for="storyOne-motion1-2">厭惡</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion1-3" value="2" data-index="1">
+                    <label class="form-check-label" for="storyOne-motion1-3">憤怒</label>
+                  </div>  
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion1-4" value="3" data-index="1">
+                    <label class="form-check-label" for="storyOne-motion1-4">恐懼</label>
+                  </div> 
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion1-5" value="4" data-index="1">
+                    <label class="form-check-label" for="storyOne-motion1-5">哀傷</label>
+                  </div> 
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion1-6" value="5" data-index="1">
+                    <label class="form-check-label" for="storyOne-motion1-6">勇敢</label>
+                  </div> 
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion1-7" value="6" data-index="1">
+                    <label class="form-check-label" for="storyOne-motion1-7">快樂</label>
+                  </div>  
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion1-8" value="7" data-index="1">
+                    <label class="form-check-label" for="storyOne-motion1-8">平靜</label>
+                  </div> 
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion1-9" value="8" data-index="1">
+                    <label class="form-check-label" for="storyOne-motion1-9">複雜</label>
+                  </div> 
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion1-10" value="9" data-index="1">
+                    <label class="form-check-label" for="storyOne-motion1-10">多元</label>
+                  </div> 
+                </div>
+                
+              </div>          
+            </div>
+          </form>
+        </div>
+      </div>
+      
+      <!-- Icon Divider -->
+      <div class="divider-dash col-lg-8 mx-auto"></div>
+
+       <!-- Upload Story Section #3 -->
+       <h2 class="page-section-heading pt-4 text-center text-uppercase text-secondary mb-5">心情故事(三)</h2>
+
+       <div class="text-center">
+         <audio class="recPlay-2 recPly" controlsList="nodownload"></audio>
+         <p id="audio-validate-2" style="display: none;" class="text-danger">請錄製音檔</p>
+      </div><!-- Upload Button -->
+       <div class="text-center">
+          <label class="btn btn-primary btn-xl record-ctrl upload-btn">
+            <input class="upload-audio" style="display:none;" type="file" accept="audio/*" data-index="2">
+            <i class="fas fa-paperclip mr-3"></i> 上傳檔案
+          </label>
+         <button class="btn btn-primary btn-xl record-ctrl selectRecorderBtn" data-index="2"><i class="fas fa-history mr-3"></i>選擇故事</button>
+         <button class="btn btn-primary btn-xl record-ctrl" id="record-start-2" onclick="recstart('2')"><i class="fas fa-microphone mr-3"></i>開始錄音</button>
+         <button class="btn btn-primary btn-xl record-ctrl" id="record-stop-2" style="display: none;" onclick="stopButtonOnClick('2')"><i class="fas fa-stop mr-3"></i>停止錄音<span id="record-time-2"></span></button>
+       </div>
+ 
+       <!-- Story label Section Form -->
+       <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <form id="storyLabelOne" class="mt-4">
+              <div class="control-group">
+                  <div class="form-group row">
+                    <label for="storyTitleOne" class="col-sm-2 col-form-label">標題</label>
+                    <input class="form-control storyTitle" id="storyTitleOne" maxlength="8" placeholder="限八個字以內" data-index="2">
+                    <ul id="tag-validate-2" style="display: none;" role="alert">
+                      <li class="text-danger">請輸入標題</li>
+                    </ul>
+                  </div>
+                <div class="form-group row">
+                  <label class="col-sm-2 col-form-label">故事類型</label>
+                  <div class="col-sm-10 col-form-label">
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="storyType" id="storyOne2-1" checked value="0" data-index="2">
+                      <label class="form-check-label" for="storyOne2-1">愛情</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="storyType" id="storyOne2-3" value="1" data-index="2">
+                      <label class="form-check-label" for="storyOne2-3">生活</label>
+                    </div>  
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="storyType" id="storyOne2-2" value="2" data-index="2">
+                      <label class="form-check-label" for="storyOne2-2">旅遊</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="storyType" id="storyOne2-4" value="3" data-index="2">
+                      <label class="form-check-label" for="storyOne2-4">創作</label>
+                    </div> 
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="storyType" id="storyOne2-5" value="4" data-index="2">
+                      <label class="form-check-label" for="storyOne2-5">私密</label>
+                    </div> 
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="storyType" id="storyOne2-6" value="5" data-index="2">
+                      <label class="form-check-label" for="storyOne2-6">其他</label>
+                    </div> 
+                  </div>
+                  
+                </div>
+                <div class="form-group row">
+                  <label class="col-sm-2 col-form-label">情緒狀態</label>
+                  <div class="col-sm-10 col-form-label">
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion2-1" checked value="0" data-index="2">
+                      <label class="form-check-label" for="storyOne-motion2-1">喜歡</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion2-2" value="1" data-index="2">
+                      <label class="form-check-label" for="storyOne-motion2-2">厭惡</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion2-3" value="2" data-index="2">
+                      <label class="form-check-label" for="storyOne-motion2-3">憤怒</label>
+                    </div>  
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion2-4" value="3" data-index="2">
+                      <label class="form-check-label" for="storyOne-motion2-4">恐懼</label>
+                    </div> 
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion2-5" value="4" data-index="2">
+                      <label class="form-check-label" for="storyOne-motion2-5">哀傷</label>
+                    </div> 
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion2-6" value="5" data-index="2">
+                      <label class="form-check-label" for="storyOne-motion2-6">勇敢</label>
+                    </div> 
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion2-7" value="6" data-index="2">
+                      <label class="form-check-label" for="storyOne-motion2-7">快樂</label>
+                    </div>  
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion2-8" value="7" data-index="2">
+                      <label class="form-check-label" for="storyOne-motion2-8">平靜</label>
+                    </div> 
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion2-9" value="8" data-index="2">
+                      <label class="form-check-label" for="storyOne-motion2-9">複雜</label>
+                    </div> 
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion2-10" value="9" data-index="2">
+                      <label class="form-check-label" for="storyOne-motion2-10">多元</label>
+                    </div> 
+                  </div>
+                  
+                </div>          
+              </div>
+            </form>
+          </div>
+       </div>
+       
+       <!-- Icon Divider -->
+       <div class="divider-dash col-lg-8 mx-auto"></div>
+
+       <!-- Upload Story Section #4 -->
+       <h2 class="page-section-heading pt-4 text-center text-uppercase text-secondary mb-5">心情故事(四)</h2>
+
+       <div class="text-center">
+         <audio class="recPlay-3 recPly" controlsList="nodownload"></audio>
+         <p id="audio-validate-3" style="display: none;" class="text-danger">請錄製音檔</p>
+       </div><!-- Upload Button -->
+       <div class="text-center">
+          <label class="btn btn-primary btn-xl record-ctrl upload-btn">
+            <input class="upload-audio" style="display:none;" type="file" accept="audio/*" data-index="3">
+            <i class="fas fa-paperclip mr-3"></i> 上傳檔案
+          </label>
+         <button class="btn btn-primary btn-xl record-ctrl selectRecorderBtn" data-index="3"><i class="fas fa-history mr-3"></i>選擇故事</button>
+         <button class="btn btn-primary btn-xl record-ctrl" id="record-start-3" onclick="recstart('3')"><i class="fas fa-microphone mr-3"></i>開始錄音</button>
+        <button class="btn btn-primary btn-xl record-ctrl" id="record-stop-3" style="display: none;" onclick="stopButtonOnClick('3')"><i class="fas fa-stop mr-3"></i>停止錄音<span id="record-time-3"></span></button>
+       </div>
+ 
+       <!-- Story label Section Form -->
+       <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <form id="storyLabelOne" class="mt-4">
+              <div class="control-group">
+                  <div class="form-group row">
+                    <label for="storyTitleOne" class="col-sm-2 col-form-label">標題</label>
+                    <input class="form-control storyTitle" id="storyTitleOne" maxlength="8" placeholder="限八個字以內" data-index="3">
+                    <ul id="tag-validate-3" style="display: none;" role="alert">
+                      <li class="text-danger">請輸入標題</li>
+                    </ul>
+                  </div>
+                <div class="form-group row">
+                  <label class="col-sm-2 col-form-label">故事類型</label>
+                  <div class="col-sm-10 col-form-label">
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="storyType" id="storyOne3-1" checked value="0" data-index="3">
+                      <label class="form-check-label" for="storyOne3-1">愛情</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="storyType" id="storyOne3-3" value="1" data-index="3">
+                      <label class="form-check-label" for="storyOne3-3">生活</label>
+                    </div>  
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="storyType" id="storyOne3-2" value="2" data-index="3">
+                      <label class="form-check-label" for="storyOne3-2">旅遊</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="storyType" id="storyOne3-4" value="3" data-index="3">
+                      <label class="form-check-label" for="storyOne3-4">創作</label>
+                    </div> 
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="storyType" id="storyOne3-5" value="4" data-index="3">
+                      <label class="form-check-label" for="storyOne3-5">私密</label>
+                    </div> 
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="storyType" id="storyOne3-6" value="5" data-index="3">
+                      <label class="form-check-label" for="storyOne3-6">其他</label>
+                    </div> 
+                  </div>
+                  
+                </div>
+                <div class="form-group row">
+                  <label class="col-sm-2 col-form-label">情緒狀態</label>
+                  <div class="col-sm-10 col-form-label">
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion3-1" checked value="0" data-index="3">
+                      <label class="form-check-label" for="storyOne-motion3-1">喜歡</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion3-2" value="1" data-index="3">
+                      <label class="form-check-label" for="storyOne-motion3-2">厭惡</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion3-3" value="2" data-index="3">
+                      <label class="form-check-label" for="storyOne-motion3-3">憤怒</label>
+                    </div>  
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion3-4" value="3" data-index="3">
+                      <label class="form-check-label" for="storyOne-motion3-4">恐懼</label>
+                    </div> 
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion3-5" value="4" data-index="3">
+                      <label class="form-check-label" for="storyOne-motion3-5">哀傷</label>
+                    </div> 
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion3-6" value="5" data-index="3">
+                      <label class="form-check-label" for="storyOne-motion3-6">勇敢</label>
+                    </div> 
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion3-7" value="6" data-index="3">
+                      <label class="form-check-label" for="storyOne-motion3-7">快樂</label>
+                    </div>  
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion3-8" value="7" data-index="3">
+                      <label class="form-check-label" for="storyOne-motion3-8">平靜</label>
+                    </div> 
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion3-9" value="8" data-index="3">
+                      <label class="form-check-label" for="storyOne-motion3-9">複雜</label>
+                    </div> 
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion3-10" value="9" data-index="3">
+                      <label class="form-check-label" for="storyOne-motion3-10">多元</label>
+                    </div> 
+                  </div>
+                  
+                </div>          
+              </div>
+            </form>
+          </div>
+       </div>
+       
+       <!-- Icon Divider -->
+       <div class="divider-dash col-lg-8 mx-auto"></div>
+
+              <!-- Upload Story Section #4 -->
+              <h2 class="page-section-heading pt-4 text-center text-uppercase text-secondary mb-5">心情故事(五)</h2>
+
+              <!-- Upload Button -->
+              <div class="text-center">
+                <audio class="recPlay-4 recPly" controlsList="nodownload"></audio>
+                <p id="audio-validate-4" style="display: none;" class="text-danger">請錄製音檔</p>
+              </div>
+              <div class="text-center">
+                <label class="btn btn-primary btn-xl record-ctrl upload-btn">
+                  <input class="upload-audio" style="display:none;" type="file" accept="audio/*" data-index="4">
+                  <i class="fas fa-paperclip mr-3"></i> 上傳檔案
+                </label>
+                <button class="btn btn-primary btn-xl record-ctrl selectRecorderBtn" data-index="4"><i class="fas fa-history mr-3"></i>選擇故事</button>
+                <button class="btn btn-primary btn-xl record-ctrl" id="record-start-4" onclick="recstart('4')"><i class="fas fa-microphone mr-3"></i>開始錄音</button>
+                <button class="btn btn-primary btn-xl record-ctrl" id="record-stop-4" style="display: none;" onclick="stopButtonOnClick('4')"><i class="fas fa-stop mr-3"></i>停止錄音<span id="record-time-4"></span></button>
+              </div>
+        
+              <!-- Story label Section Form -->
+              <div class="row">
+                  <div class="col-lg-8 mx-auto">
+                    <form id="storyLabelOne" class="mt-4">
+                      <div class="control-group">
+                          <div class="form-group row">
+                            <label for="storyTitleOne" class="col-sm-2 col-form-label">標題</label>
+                            <input class="form-control storyTitle" id="storyTitleOne" maxlength="8" placeholder="限八個字以內" data-index="4">
+                            <ul id="tag-validate-4" style="display: none;" role="alert">
+                              <li class="text-danger">請輸入標題</li>
+                            </ul>
+                          </div>
+                        <div class="form-group row">
+                          <label class="col-sm-2 col-form-label">故事類型</label>
+                          <div class="col-sm-10 col-form-label">
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="storyType" id="storyOne4-1" checked value="0" data-index="4">
+                              <label class="form-check-label" for="storyOne4-1">愛情</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="storyType" id="storyOne4-3" value="1" data-index="4">
+                              <label class="form-check-label" for="storyOne4-3">生活</label>
+                            </div>  
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="storyType" id="storyOne4-2" value="2" data-index="4">
+                              <label class="form-check-label" for="storyOne4-2">旅遊</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="storyType" id="storyOne4-4" value="3" data-index="4">
+                              <label class="form-check-label" for="storyOne4-4">創作</label>
+                            </div> 
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="storyType" id="storyOne4-5" value="4" data-index="4">
+                              <label class="form-check-label" for="storyOne4-5">私密</label>
+                            </div> 
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="storyType" id="storyOne4-6" value="5" data-index="4">
+                              <label class="form-check-label" for="storyOne4-6">其他</label>
+                            </div> 
+                          </div>
+                          
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-sm-2 col-form-label">情緒狀態</label>
+                          <div class="col-sm-10 col-form-label">
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion4-1" checked value="0" data-index="4">
+                              <label class="form-check-label" for="storyOne-motion4-1">喜歡</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion4-2" value="1" data-index="4">
+                              <label class="form-check-label" for="storyOne-motion4-2">厭惡</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion4-3" value="2" data-index="4">
+                              <label class="form-check-label" for="storyOne-motion4-3">憤怒</label>
+                            </div>  
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion4-4" value="3" data-index="4">
+                              <label class="form-check-label" for="storyOne-motion4-4">恐懼</label>
+                            </div> 
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion4-5" value="4" data-index="4">
+                              <label class="form-check-label" for="storyOne-motion4-5">哀傷</label>
+                            </div> 
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion4-6" value="5" data-index="4">
+                              <label class="form-check-label" for="storyOne-motion4-6">勇敢</label>
+                            </div> 
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion4-7" value="6" data-index="4">
+                              <label class="form-check-label" for="storyOne-motion4-7">快樂</label>
+                            </div>  
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion4-8" value="7" data-index="4">
+                              <label class="form-check-label" for="storyOne-motion4-8">平靜</label>
+                            </div> 
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion4-9" value="8" data-index="4">
+                              <label class="form-check-label" for="storyOne-motion4-9">複雜</label>
+                            </div> 
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="radio" name="emotion" id="storyOne-motion4-10" value="9" data-index="4">
+                              <label class="form-check-label" for="storyOne-motion4-10">多元</label>
+                            </div> 
+                          </div>
+                          
+                        </div>          
+                      </div>
+                    </form>
+                  </div>
+              </div>
+
+    </div>
+  </section>
+
+   <!-- Contact Section -->
+   <section class="page-section bg-primary text-white mb-0" id="">
+    <div class="container">
+
+      <!-- Contact Section Heading -->
+      <h2 class="page-section-heading  text-center text-uppercase text-white">禮物收件人</h2>
+
+      <!-- Icon Divider light-->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- Contact Section Form -->
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+          <form name="sentMessage" id="contactForm" novalidate="novalidate">
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                <label class="col-sm-2 col-form-label">姓名</label>
+                <input class="form-control" id="name" type="text" placeholder="收件人姓名" required="required" data-validation-required-message="請填寫您的姓名">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                <label class="col-sm-2 col-form-label">Email</label>
+                <input class="form-control" id="email" type="email" placeholder="Email" required="required" data-validation-required-message="請輸入您的 Email" data-validation-email-message="請輸入正確格式 Email">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                <label class="col-sm-2 col-form-label">電話</label>
+                <input
+                  class="form-control"
+                  id="phone" type="tel"
+                  placeholder="請輸入聯絡電話"
+                  required="required"
+                  data-validation-required-message="請輸入您的聯絡電話"
+                  data-validation-regex-regex="09\d{8}"
+                  data-validation-regex-message="請輸入正確手機號碼"
+                >
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                <label class="col-sm-2 col-form-label">地址</label>
+                <input class="form-control" id="address" placeholder="請輸入完整郵寄地址" required="required" data-validation-required-message="請輸入完整郵寄地址">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <br>
+            <!-- <div id="success"></div> -->
+            <div class="text-center">
+              <button type="submit" class="btn btn-xl btn-outline-light" id="submit" data-toggle="modal">確定</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="page-section portfolio" id="notice">
+      <div class="container">
+  
+        <!-- Program descroption Section Heading -->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">注意事項</h2>
+  
+        <!-- Icon Divider -->
+        <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="divider-custom-line"></div>
+        </div>
+  
+        <!-- Portfolio Grid Items -->
+        <div class="row">
+          <div class="col-lg-2 ml-auto">
+          </div>
+          <div class="col-lg-8 ml-auto">
+            <ul style="margin-right: 20px;">
+              <li>為保障參加者權益，確保禮品能寄送到參加者手裡，請確實填寫參加者基本資料；參加者因資料填寫錯誤致使無法收到獎品，主辦單位概不負責，亦不補發。</li>
+              <li>故事上傳後，不接受任何基本資料之變更。</li>
+              <li>獎品寄送地址限台灣本島、澎湖、金門、馬祖地區。 獎品不接受退貨、退款，換貨以非人為故障商品為限，保固期限3個月。</li>
+              <li>活動期間有任何疑問，請至臉書專頁與活動團隊聯繫：<a href="https://reurl.cc/qRVZD">https://reurl.cc/qRVZD</a></li>
+              <li>以上如有未盡事宜，主辦單位保留解釋、修改及補充本活動規則之權利。</li>
+              <li>主辦單位: Here Hear/ 竹謙設計開發股份有限公司</li>
+            </ul>
+          </div>
+          <div class="col-lg-2 ml-auto">
+          </div>
+        </div>
+        <!-- /.row -->
+  
+      </div>
+    </section>
+
+  <!-- Copyright Section -->
+  <section class="copyright py-4 text-center text-white">
+    <div class="container">
+      <small>Copyright &copy; Here Hear 2019</small>
+    </div>
+  </section>
+
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-to-top d-lg-none position-fixed ">
+    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+  </div>
+  <div id="loading-back" style="display: none;">
+    <div id="loading">
+      <div class="spinner-border text-light" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">隱私權以及個人資料保護通知</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-lg-12">
+            <p>
+              Bamboo Design and Development Limited (Here Hear APP之服務提供者，以下稱「本公司」)，為了保護使用者使用Here Hear APP之隱私權，且遵循台灣「個人資料保護法」之規定，制訂了本隱私以及個人資料保護通知以及同意 (以下稱「通知及同意」)，協助您了解 Here Hear APP如何蒐集、利用及保護您所提供的個人資訊，當您開始使用Here Hear APP，即代表您已清楚了解本公司隱私權保障機制，並已受本公司告知蒐集、利用、處理個人資料、傳輸個人資料之目的、個人資料之類別。個人資料利用之期間、地區、對象及方式，以及不提供將對使用者權益之影響，且對於前揭告知事項表示同意。
+    
+              一、本通知及同意適用範圍
+              本通知及同意適用於您使用 Here Hear APP所提供的各項服務時，有關個人資料的蒐集、利用、處理、傳輸以及隱私權保護，但不適用於與 Here Hear APP連結之其他各網站。凡經由Here Hear APP網站連結的其他網站，均有其專屬的隱私權以及個人資料保護政策，本公司並不負任何連帶責任。當您連結到這些網站時，關於個人資料的保護，應適用各該網站的隱私權以及個人資料保護政策。
+              二、個人資料之安全
+              保護使用者的個人隱私是本公司以及Here Hear APP核心經營理念，未經您的同意，我們絕不會將您的個人資料提供予任何與本網站服務無關之第三人，但有下列情形者除外：
+              法令規定；
+              應政府機關、司法機關之要求；
+              本公司為行使法律上的權利或對訴訟上之請求提出防禦；
+              本公司為了調查或防止非法活動、詐欺行為、對人身安全有潛在威脅的情況或對 Here Hear APP使用者條款的違反，或為了對上述情形採取應對措施；
+              三、個人資料的蒐集、處理、利用、傳輸
+              本公司對於您個人資料(類別詳下述)之處理及利用，僅在蒐集之特定目的及相關法令規定之範圍內為之。除本通知及同意另有規定或其他法令有特別規定者外，未經您的同意，本公司絕對不會將您的個人資料揭露於第三人、或移作其他目的使用。
+              您可以自由選擇提供個人資料，但如您所提供的資料不足或有誤時，本公司以及Here Hear APP 則可能無法提供完整之服務。
+              
+              四、蒐集之個人資料類別
+              本公司於 Here Hear APP 內蒐集的個人資料之類別（依據法務部公告之「個人資料保護法之特定目的及個人資料之類別」詳列如下，代號及項目嗣後經法務部公告變更，亦隨同變更之）包括：
+              C011 個人描述：例如：年齡、性別、出生年月日、出生地、國籍、聲音等。
+              C035 休閒活動及興趣。例如：嗜好、運動及其他興趣等
+              C036 生活格調。例如：使用消費品之種類及服務之細節、個人或家庭之消費模式等。
+              C111 健康紀錄。例如：醫療報告、治療與診斷紀錄、檢驗結果、身心障礙種類、等級、有效期間、身心障礙手冊證號及聯絡人等。
+              C120 宗教信仰
+              五、個人資料蒐集之特定目的
+              本公司於Here Hear APP內蒐集的個人資料之特定目的（依據法務部公告之「個人資料保護法之特定目的及個人資料之類別」詳列如下，代號及項目嗣後經法務部公告變更，亦隨同變更之）包括：
+              040「行銷（包含金控共同行銷業務）」。
+              069「契約、類似契約或其他法律關係事務」。
+              090「消費者、客戶管理與服務」。
+              135「資(通)訊服務」。
+              136「資(通)訊與資料庫管理」。
+              137「資通安全與管理」。
+              152「廣告或商業行為管理」。
+              157「調查、統計與研究分析」。
+              176「其他自然人基於正當性目的所進行個人資料之蒐集處理及利用」。
+              六、個人資料之利用
+              個人資料利用期間、地區、對象及方式
+              期間：本公司及Here Hear APP將持續使用您提供的個人資料，直至您提出停止利用或 Here Hear APP 終止提供服務之日為止。
+              地區：中華民國境內、境外（主管機關禁止者不在此限）。
+              對象：Here Hear APP、受Here Hear APP委託或提供本服務必要範圍內之關係企業及合作廠商。(使用者上傳音檔部分，使用者亦將包含使用Here Hear APP之使用者，然其他使用者之使用方式僅限於個人收聽與下載收藏，並不包含任何其他本通知及同意所述之特定目的)
+              方式：符合蒐集特定目的及法令規定範圍之利用。
+              七、資料當事人權利
+              本公司所蒐集個人資料之當事人，依個人資料保護法得對 本公司 行使以下權利：
+              查詢或請求閱覽。
+              請求製給複製本。
+              請求補充或更正。
+              請求停止蒐集、處理或利用。
+              請求刪除。
+              
+              您如欲請求停止或刪除您的個人資料，可與Here Hear APP客服小組聯繫，經一定程序驗證身分後辦理。若您選擇停止處理或利用部分個人資料，致提供之資料不足或有誤時，Here Hear APP 則可能無法提供完整之服務。
+              八、個人資料之保護Here Hear APP會將您的個人資料完整儲存於我們的資料儲存系統中，並以嚴密的保護措施防止未經授權人員之接觸。Here Hear APP的人員如有違反保密義務者，將受相關法律及公司內部規定之處分。
+              為了保護您個人資料之完整及安全，保存您個人資料之資料處理系統均已設有各項資訊安全設備及必要的安全防護措施，以保障您的個人資料不會被不當取得或破壞。
+              
+              如因業務需要有必要委託第三者提供服務時，Here Hear APP 亦會嚴格要求其遵守保密義務，並且採取必要檢查程序以確定其將確實遵守。
+              九、通知及同意之修訂
+              依據市場環境的改變，本公司及Here Hear APP 將會不時修訂通知及同意。您如果對於 Here Hear APP之隱私權保障、或與個人資料有關之相關事項有任何疑問，可以利用電子郵件與客服小組聯繫 herehear@bamboodd.com
+            </p>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 20px">
+          <div class="col-lg-12">
+            <div class="form-check form-check-inline">
+              <input id="agree" type="checkbox">
+              <label for="agree">&nbsp;&nbsp;同意隱私權以及個人資料保護通知</label>
+            </div>
+          </div>
+        </div>
+          
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+          <button type="button" id="create-story" class="btn btn-primary" disabled>確定</button>
+        </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="selectRecorder" tabindex="-1" role="dialog" aria-labelledby="selectRecorderTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="selectRecorderTitle">暫存錄音檔</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <ul id="storage-list" class="list-group">
+      </ul>
+      <!-- 
+      <div class="modal-body">
+        <ul class="list-group">
+          <li class="list-group-item">Cras justo odio</li>
+          <li class="list-group-item">Dapibus ac facilisis in</li>
+          <li class="list-group-item">Morbi leo risus</li>
+          <li class="list-group-item">Porta ac consectetur ac</li>
+          <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+      </div> 
+      -->
+    </div>
+  </div>
+</div>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.all.min.js" integrity="sha256-2RS1U6UNZdLS0Bc9z2vsvV4yLIbJNKxyA4mrx5uossk=" crossorigin="anonymous"></script>
+  <script src="https://d2pms2fk4ad2h.cloudfront.net/vendor/jquery/jquery.min.js"></script>
+  <script src="https://d2pms2fk4ad2h.cloudfront.net/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="https://d2pms2fk4ad2h.cloudfront.net/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact Form JavaScript -->
+  <script src="https://d2pms2fk4ad2h.cloudfront.net/js/jqBootstrapValidation.min.js"></script>
+  <script src="https://d2pms2fk4ad2h.cloudfront.net/js/contact_me.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="https://d2pms2fk4ad2h.cloudfront.net/js/freelancer.min.js"></script>
+
+  <script src="js/recorder.js"></script>
+  <script src="js/selectRecorder.js"></script>
+
+  
+</body>
+
+</html>
